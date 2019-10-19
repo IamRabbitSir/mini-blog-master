@@ -71,7 +71,7 @@ Page({
    */
   tabSelect: async function (e) {
     let that = this;
-    console.log(e);
+    //console.log(e);
     that.setData({
       tabCur: e.currentTarget.dataset.id,
       timeDesc: e.currentTarget.dataset.id === "1" ? "收藏时间：" : "点赞时间：",

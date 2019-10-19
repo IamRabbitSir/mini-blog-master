@@ -4,6 +4,7 @@ const regeneratorRuntime = require('../../utils/runtime.js');
 const util = require('../../utils/util.js');
 const app = getApp();
 import Poster from '../../utils/poster';
+
 Page({
 
   /**
@@ -31,6 +32,7 @@ Page({
     posterImageUrl: ""//海报地址
   },
 
+  
   /**
    * 生命周期函数--监听页面加载
    */
@@ -113,7 +115,7 @@ Page({
    * @param {} e 
    */
   getUserInfo: function (e) {
-    console.log(e.detail.userInfo)
+    //console.log(e.detail.userInfo)
     if (e.detail.userInfo) {
       app.globalData.userInfo = e.detail.userInfo
       this.setData({

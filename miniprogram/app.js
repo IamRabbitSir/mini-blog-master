@@ -26,7 +26,7 @@ App({
           }
         })
       }
-      console.info(this.globalData.openid)
+      //console.info(this.globalData.openid)
     }
   },
   towxml:new Towxml(),

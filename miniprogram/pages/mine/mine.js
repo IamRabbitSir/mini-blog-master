@@ -79,7 +79,7 @@ Page({
    * @param {} e 
    */
   getUserInfo: function (e) {
-    console.log(e.detail.userInfo)
+    //console.log(e.detail.userInfo)
     if (e.detail.userInfo) {
       app.globalData.userInfo = e.detail.userInfo
       this.setData({

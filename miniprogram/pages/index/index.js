@@ -58,6 +58,7 @@ Page({
    */
   bindPostDetail: function (e) {
     let blogId = e.currentTarget.id;
+    //console.log("1111111111111" +"       "+blogId);
     wx.navigateTo({
       url: '../detail/detail?id=' + blogId
     })

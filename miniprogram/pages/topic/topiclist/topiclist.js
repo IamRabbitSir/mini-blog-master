@@ -69,7 +69,7 @@ Page({
    * tab切换
    */
   tabSelect(e) {
-    console.log(e);
+    //console.log(e);
     this.setData({
       tabCur: e.currentTarget.dataset.id,
       scrollLeft: (e.currentTarget.dataset.id - 1) * 60

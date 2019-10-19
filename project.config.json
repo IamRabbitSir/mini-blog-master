@@ -2,7 +2,7 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -12,7 +12,7 @@
 		"uglifyFileName": false,
 		"checkInvalidKey": true
 	},
-	"appid": "wx0a60892c80964b26",
+	"appid": "",
 	"projectname": "mini-blog",
 	"libVersion": "2.7.0",
 	"simulatorType": "wechat",
